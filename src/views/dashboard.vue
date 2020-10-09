@@ -4,7 +4,7 @@
     <div>
       <b-row>
           <b-col>    
-            <b-button variant="success"><span><b-icon icon="clipboard-plus"></b-icon> add a new publishing</span></b-button>
+            <b-button variant="success" to="/vin"><span><b-icon icon="clipboard-plus"></b-icon> add a new publishing</span></b-button>
           </b-col>
       </b-row>
       <br>

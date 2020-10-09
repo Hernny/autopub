@@ -24,7 +24,7 @@
                         <br>
                         <b-row >
                             <b-col cols="12" >
-                                <b-button pill variant="success">Search</b-button>
+                                <b-button to="/create" pill variant="success">Search</b-button>
                             </b-col>
                         </b-row>
                         <br>

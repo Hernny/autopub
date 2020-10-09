@@ -23,7 +23,7 @@
         <br>
         <b-row align-h="center">
           <b-col cols="12" lg="3">
-            <b-button pill variant="success">Login</b-button>
+            <b-button to="/" pill variant="success">Login</b-button>
           </b-col>
         </b-row>
       </b-col>

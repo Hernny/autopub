@@ -8,9 +8,10 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav >
-          <b-nav-item href="/">Home</b-nav-item>
-          <b-nav-item href="/dashboard">Dashboard</b-nav-item>
-          <b-nav-item href="/contact">Contact us</b-nav-item>
+          <b-nav-item to="/">Home</b-nav-item>
+
+          <b-nav-item to="/dashboard">Dashboard</b-nav-item>
+          <b-nav-item to="/contact">Contact us</b-nav-item>
         </b-navbar-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
@@ -24,7 +25,7 @@
               <em>User</em>
             </template>
             <b-dropdown-item href="#">Profile</b-dropdown-item>
-            <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+            <b-dropdown-item to="/auth">Sign Out</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>

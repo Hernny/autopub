@@ -245,7 +245,7 @@
                         <br>
                         <b-row class="justify-content-md-center">
                             <b-col cols="6">
-                                <b-button variant="success">
+                                <b-button to="preview" variant="success">
                                     Create
                                 </b-button>
                             </b-col>
